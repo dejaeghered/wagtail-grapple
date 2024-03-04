@@ -6,7 +6,7 @@ from django.db import connection
 from graphql import GraphQLError
 from wagtail.models import Site
 from wagtail.search.index import class_is_indexed
-from wagtail.contrib.search_promotions import Query
+from wagtail.contrib.search_promotions.models import Query
 
 from .settings import grapple_settings
 from .types.structures import BasePaginatedType, PaginationType
